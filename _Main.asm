@@ -9,6 +9,8 @@
 ; Main ASM File
 ; ====================================================================================================
 
+        include "Equates/SST Equates.asm"
+
 StartofROM:
         include "System/Vector Table.asm"   ; M68K Exceptions
 
